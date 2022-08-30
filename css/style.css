@@ -57,15 +57,15 @@ img{
     margin-right: 10px;
 }
 
-.imobiliarias {
+.navbar a{
     text-decoration: none;
     margin: 0px 10px;
     border-radius: 5px;
 
 }
 
-.imobiliarias:hover {
-    background: rgb(171, 171, 247);
+.navbar a:hover{
+    background: tan;
     color: white;
 }
 
@@ -133,11 +133,11 @@ img{
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    padding-right: 10px;
+    
     border-radius: 5px;
-    background: rgb(172, 240, 172);
+    background: #66CDAA;
     margin-right: 5px;
-    align-items: center;
+   text-align: center;
     
 }
 
@@ -171,17 +171,15 @@ img{
 .sale {
     width: 48px;
     height: 19px;
-
     font-family: 'Ropa Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    padding-right: 10px;
     border-radius: 5px;
-    background: rgb(126, 126, 60);
+    background: #2F4F4F;
     margin-right: 5px;
-    align-items: center;
+    text-align: center;
 }
 
 .your-style {
@@ -264,6 +262,14 @@ img{
         display: none;
     }
 
+    .navbar {
+        display: none;
+    }
+
+    .imagem1 {
+        margin-bottom: 15px;
+    }
+
     .container-banner2 {
         display: block;
         margin: auto;
@@ -272,8 +278,5 @@ img{
         
     }
 
-    .rodape {
-        max-width: 100%;
-        display: block;
-    }
+    
 }
