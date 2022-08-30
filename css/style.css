@@ -5,7 +5,7 @@
 }
 
 .cabecalho {
-   max-width: 697px;
+    max-width: 697px;
     height: 40px;
     margin: auto;
     display: flex;
@@ -45,7 +45,7 @@
     color: #777777;
 }
 img{
-    width: 39px;
+    width: 100%;
     height: 22px;
 }
 .barrinhas {
@@ -231,8 +231,8 @@ img{
 
 
 .rodape {
-    width: 697px;
-    height: 243px;
+    max-width: 697px;
+    height: 43vh;
     background: #333333;
     display: flex;
     margin: auto;
@@ -274,8 +274,11 @@ img{
         display: block;
         margin: auto;
         padding: 60px;
-        padding-bottom: 10px;
         
+    }
+
+    .cabecalho {
+        margin: auto;
     }
 
     
